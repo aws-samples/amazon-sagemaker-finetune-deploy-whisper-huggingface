@@ -1,11 +1,6 @@
-## My Project
+## Fine-tuning and Deploy OpenAI Whisper (HuggingFace Version) on SageMaker
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+This is a demo project showing how to fine-tune and deploy the Whisper model on SageMaker.
 
 ## Security
 
