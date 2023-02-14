@@ -5,8 +5,6 @@ import librosa
 import numpy as np
 import io
 
-from transformers import WhisperForConditionalGeneration
-from transformers import WhisperProcessor
 from transformers import pipeline
 
 logger = logging.getLogger()
