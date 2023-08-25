@@ -1,0 +1,12 @@
+boto3
+librosa
+evaluate>=0.3.0
+jiwer
+gradio
+bitsandbytes
+datasets
+accelerate
+loralib
+transformers @ git+https://github.com/huggingface/transformers.git@main
+peft @ git+https://github.com/huggingface/peft.git@main
+sagemaker-pytorch-training
