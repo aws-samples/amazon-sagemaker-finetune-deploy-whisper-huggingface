@@ -130,7 +130,6 @@ if __name__ == "__main__":
         dataloader_num_workers=args.dataloader_num_workers,
         save_total_limit=4,
     )
-
     trainer = Seq2SeqTrainer(
         args=training_args,
         model=model,
@@ -145,6 +144,8 @@ if __name__ == "__main__":
     transformers.logging.set_verbosity_error()
 
     trainer.train()
+
+
 
     logger.info("Start evaluating")
     eval_result = trainer.evaluate(eval_dataset=train_dataset["test"])
